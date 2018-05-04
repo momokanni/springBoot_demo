@@ -29,3 +29,8 @@ redis安装配置过程需要注意一点：ping不通端口，修改配置文�
 ```  <artifactId>best-pay-sdk</artifactId> ```</br>
 ```  <version>1.1.0</version> ```</br>
 ``` </dependency> ```
+
+#### 打包部署</br>
+>1、打包成Jar：mvn clean package -Dmaven.test.skip=true</br>
+>2、shell运行脚本: nohup java -jar -Dserver.port=8888 -Dspring.profiles.active=prod springboot.jar > /dev/null 2>&1 &</br>
+执行命令：bash start.sh
