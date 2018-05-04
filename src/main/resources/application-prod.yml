@@ -1,0 +1,58 @@
+spring:
+    datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: txhl1107mysql
+      url: jdbc:mysql://m.limit-tech.com:3306/wxOrder?useUnicode=true&characterEncoding=UTF-8
+    jpa:
+      show-sql: false
+      open-in-view: false
+    mail:
+      host: smtp.163.com
+      username: txhz2018@163.com
+      password: txhl1107clf
+      properties:
+        mail:
+          stmp:
+            auth: true
+            starttls:
+            enable: true
+            required: true
+    #返回数据去除为null的
+    jackson:
+      default-property-inclusion: non_null
+    redis:
+          host: 123.56.207.181
+          port: 6379
+          password: txhl1107_redis_cs
+server:
+  servlet:
+    context-path: /wxorder
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  path: D:/code/log/
+#  file: D:/code/file/fileOne.log
+#  level:
+#    com.txhl.wxorder.LoggerTest: debug
+
+wechat:
+  mpAppId: wxd888ff7ebaff0fdb
+  mpAppSecret: 771c5f039f324f38a1f18dcb744db897
+  openAppId: wx4ed20b3cd55b9684
+  openAppSecret: ca0eb54407791777aedc3ccaf72e6299
+  mchId: 1502384911
+  mchKey: Txhl1107clflimittechwechatpay041
+  keyPath: /usr/local/txhz/key/apiclient_cert.p12
+  notifyUrl: http://wm.limit-tech.com/wxorder/pay/notify
+  templateId:
+      orderStatus: dZw_qNoOuIaPGkzDkWh_28BasxoA0jjf-2BFo3k-eGA
+
+projecturl:
+  wxMPAuthorize: http://wm.limit-tech.com
+  wxOPenAuthorize: http://wm.limit-tech.com
+  wxorder: http://wm.limit-tech.com
+
+#logging:
+#  level:
+#    com.txhl.wxorder.entity.mapper: trace
