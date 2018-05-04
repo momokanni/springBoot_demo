@@ -20,7 +20,7 @@ redis安装配置过程需要注意一点：ping不通端口，修改配置文�
 >9、max_fails=1 fail_timeout=30s proxy_connect_timeout
 
 #### 需要了解的Spring知识点为：SpringAOP、Spring配置方式（1.组件扫描、自动配置，2.JavaConfig）、Spring缓存注解
-#### websocket 采用的是H5标准,不是sockJS
+#### websocket 采用的是H5标准,不是sockJS,如果有Nginx负载，一定要打开webSocket隧道，否则404
 #### logback 将程序错误异常发送邮箱时，163邮箱设置，密码需为"[客户端授权密码](http://mail.163.com)"
 #### [微信SDK](https://github.com/Wechat-Group/weixin-java-tools/blob/master/readme.md)
 #### 微信支付</br>
