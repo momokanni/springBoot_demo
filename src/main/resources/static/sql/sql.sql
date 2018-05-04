@@ -1,10 +1,7 @@
 /*
-Navicat MySQL Data Transfer
 
 Source Server         : 测试环境
 Source Server Version : 50173
-Source Host           : m.limit-tech.com:3306
-Source Database       : wxOrder
 
 Target Server Type    : MYSQL
 Target Server Version : 50173
