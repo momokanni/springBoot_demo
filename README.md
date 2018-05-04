@@ -1,5 +1,6 @@
 # springBoot_basic
-`本例为springBoot2.0基础demo  `                                                                                                               
+`本例为springBoot2.0基础demo  `
+`后续会添加：Spring security,solr,以及对小程序的支持`
 
 ### redis安装：[安装文档](http://blog.csdn.net/unix21/article/details/9526295 "安装文档")
 redis可视化操作工具：RedisDesktopManager<br/>
