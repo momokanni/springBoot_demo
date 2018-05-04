@@ -2,15 +2,15 @@ spring:
     datasource:
       driver-class-name: com.mysql.jdbc.Driver
       username: root
-      password: txhl1107mysql
-      url: jdbc:mysql://m.limit-tech.com:3306/wxOrder?useUnicode=true&characterEncoding=UTF-8
+      password: *****
+      url: jdbc:mysql://*****:3306/wxOrder?useUnicode=true&characterEncoding=UTF-8
     jpa:
       show-sql: true
       open-in-view: true
     mail:
       host: smtp.163.com
-      username: txhz2018@163.com
-      password: txhl1107clf
+      username: ******
+      password: ******
       properties:
         mail:
           stmp:
@@ -22,9 +22,9 @@ spring:
     jackson:
       default-property-inclusion: non_null
     redis:
-      host: 123.56.207.181
+      host: ***
       port: 6379
-      password: txhl1107_redis_cs
+      password: ***
 server:
   servlet:
     context-path: /wxorder
@@ -37,21 +37,21 @@ server:
 #    com.txhl.wxorder.LoggerTest: debug
 
 wechat:
-  mpAppId: wxd888ff7ebaff0fdb
-  mpAppSecret: 771c5f039f324f38a1f18dcb744db897
-  openAppId: wx4ed20b3cd55b9684
-  openAppSecret: ca0eb54407791777aedc3ccaf72e6299
-  mchId: 1502384911
-  mchKey: Txhl1107clflimittechwechatpay041
+  mpAppId: ***
+  mpAppSecret: ***
+  openAppId: ***
+  openAppSecret: ***
+  mchId: ***
+  mchKey: ***
   keyPath: /usr/local/txhz/key/apiclient_cert.p12
-  notifyUrl: http://wm.limit-tech.com/wxorder/pay/notify
+  notifyUrl: ***/notify
   templateId:
     orderStatus: dZw_qNoOuIaPGkzDkWh_28BasxoA0jjf-2BFo3k-eGA
 
 projecturl:
-  wxMPAuthorize: http://wm.limit-tech.com
-  wxOPenAuthorize: http://wm.limit-tech.com
-  wxorder: http://wm.limit-tech.com
+  wxMPAuthorize: ***.com
+  wxOPenAuthorize: ***.com
+  wxorder: ***.com
 
 logging:
   level:
