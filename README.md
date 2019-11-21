@@ -1,4 +1,4 @@
-# springBoot_basic
+# springBoot_demo
 `本例为springBoot2.0基础demo`</br>
 `后续会添加：Spring security,solr,以及对小程序的支持`
 
